@@ -4,6 +4,7 @@
 
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 html, body {
@@ -11,11 +12,23 @@ html, body {
   padding: 0;
 }
 
+.header-title {
+  color: white;
+}
+
+.span-author-name {
+  color: #F7819F
+}
+
 body {
   .flex(none, center, column);
   background-color: @lambda-times-color-background;
-  color: @lambda-times-color-primary;
-  font-family: 'PT Sans', sans-serif;
+  color: rgb(206, 206, 206);
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-bar {
+  border-bottom: 2px solid white;
 }
 
 @import './components/TopBar/TopBar';
