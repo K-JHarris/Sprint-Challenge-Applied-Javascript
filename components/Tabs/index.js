@@ -23,7 +23,7 @@ const topicElement = document.querySelector('.topics');
 //perform axios get request on api url
 const axiosPromise = axios.get('https://lambda-times-backend.herokuapp.com/topics');
 //to check the data we're recieving 
-console.log('Failsafe: Here\'s your axios promise, I hope it\'s exciting', axiosPromise); 
+console.log('Failsafe: Here\'s your axios promise for topics, I hope it\'s exciting', axiosPromise); 
 
 axiosPromise.then(res => {
   //take result of axios promise and assign topics variable to topics data
@@ -34,3 +34,5 @@ axiosPromise.then(res => {
     topicElement.appendChild(createTab(topic));
   })
 })
+
+// MVP 👌
