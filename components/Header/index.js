@@ -16,9 +16,9 @@ function Header() {
   const headerTitle = document.createElement('h1');
   const tempSpan = document.createElement('span');
   //set text content for elements that need it
-  dateSpan.textContent = 'SMARCH 28, 2019';
-  headerTitle.textContent = 'Lambda Times'; 
-  tempSpan.textContent = '98°'
+  dateSpan.textContent = 'Fabuary 3, 2019';
+  headerTitle.textContent = 'Blox News'; 
+  tempSpan.textContent = 'mans not hot°'
   //use .appendChild to insert newly created elements into container div
   headerPackage.appendChild(dateSpan);
   headerPackage.appendChild(headerTitle);
@@ -27,6 +27,7 @@ function Header() {
   headerPackage.classList.add('header');
   dateSpan.classList.add('date');
   tempSpan.classList.add('temp');
+  headerTitle.classList.add('header-title')
   //return container div, now full of our elements
   return headerPackage;
 }

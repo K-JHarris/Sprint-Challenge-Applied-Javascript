@@ -31,6 +31,7 @@ const createCard = (data) => {
   headline.classList.add('headline');
   authorContainer.classList.add('author');
   imgContainer.classList.add('img-container');
+  spanAuthorName.classList.add('span-author-name')
   //set text content and src equal to recieved data
   headline.textContent = `${data.headline}`;
   img.src = `${data.authorPhoto}`;
