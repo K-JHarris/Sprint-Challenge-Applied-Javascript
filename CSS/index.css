@@ -41,7 +41,7 @@ body {
   justify-content: none;
   align-items: center;
   flex-direction: column;
-  background-color: #f1f1f1;
+  background-color: #16161d;
   color: #333;
   font-family: 'PT Sans', sans-serif;
 }
@@ -136,7 +136,7 @@ body {
   font-weight: bold;
   flex: 8;
   text-align: center;
-  color: #000;
+  color: #16161d;
 }
 .header span {
   align-self: flex-end;
